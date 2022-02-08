@@ -33,7 +33,7 @@ react: react-campaigns
 application: react local docker
 
 local: 
-	mvn assembly:assembly -DdescriptorId=jar-with-dependencies  -Dmaven.test.skip=true
+	mvn38 assembly:assembly -DdescriptorId=jar-with-dependencies  -Dmaven.test.skip=true
 	docker build -t jacamars/newbidder .
 
 minio:

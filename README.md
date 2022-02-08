@@ -1,3 +1,12 @@
+#### Prerequisites
+
+1. Node 14.x.x
+2. Java 11 (openjdk-11-jdk)
+3. Maven 3.8.x
+
+
+Upstream README content:
+===============
 RTB4FREE Bidder
 ===============
 
